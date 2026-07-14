@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit Kumar | Creative Director Portfolio</title>
+    <meta name="description" content="Portfolio of Rohit Kumar, a New York-based Creative Director specializing in clean, simple, and unique digital designs, UI/UX, and brand strategy.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- Custom Scroll Progress -->
+    <div id="scroll-progress" class="scroll-progress-bar"></div>
+
+    <!-- Navigation Header -->
+    <header class="main-header" id="header">
+        <div class="header-container">
+            <a href="#home" class="logo" id="nav-logo">
+                RK<span class="dot">.</span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active" id="link-home">Home</a></li>
+                    <li><a href="#works" class="nav-link" id="link-works">Works</a></li>
+                    <li><a href="#services" class="nav-link" id="link-services">Services</a></li>
+                    <li><a href="#about" class="nav-link" id="link-about">About</a></li>
+                    <li><a href="#blog" class="nav-link" id="link-blog">Blog</a></li>
+                    <li><a href="#contact" class="nav-link" id="link-contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <a href="#contact" class="btn btn-nav" id="btn-talk">Let's Talk</a>
+                <button class="mobile-menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="geometric-bg">
+                <div class="polygon poly-1"></div>
+                <div class="polygon poly-2"></div>
+                <div class="polygon poly-3"></div>
+            </div>
+            
+            <div class="section-container hero-grid">
+                <div class="hero-content reveal">
+                    <span class="hero-greeting">WELCOME TO MY WORLD</span>
+                    <h1 class="hero-title">Hi There, I Am <span class="name-highlight">Rohit Kumar</span></h1>
+                    <p class="hero-subtitle">Creative Director</p>
+                    <p class="hero-desc">Crafting high-end visual strategies, immersive user experiences, and brand narratives for premium global clients. Based in New York, shaping the future of design.</p>
+                    <div class="hero-ctas">
+                        <a href="#works" class="btn btn-primary" id="btn-hero-works">
+                            <span>View Works</span>
+                            <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-image-container reveal">
+                    <div class="image-wrapper">
+                        <div class="glow-bg"></div>
+                        <img src="assets/images/hero-rohit.png" alt="Rohit Kumar Portrait" class="hero-img">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="scroll-down-indicator">
+                <a href="#about" aria-label="Scroll Down">
+                    <span class="mouse">
+                        <span class="wheel"></span>
+                    </span>
+                </a>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="about-section">
+            <div class="section-container">
+                <div class="section-header reveal">
+                    <span class="section-tag">WHO I AM</span>
+                    <h2 class="section-title">About Me</h2>
+                </div>
+                
+                <div class="about-grid">
+                    <div class="about-bio reveal">
+                        <p class="bio-highlight">I value clean, simple, and unique design. Everything I create is driven by a deep search for visual harmony and emotional connection.</p>
+                        <p class="bio-text">As a New York-based Creative Director with over a decade of agency experience, I collaborate with luxury, lifestyle, and tech brands to conceptualize and deliver high-impact identity systems. I believe that exceptional design is not just how it looks, but how effortlessly it tells a story and solves problems.</p>
+                    </div>
+                    
+                    <div class="about-skills reveal">
+                        <div class="skills-container">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Wireframing</span>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" data-progress="90%"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">UI/UX</span>
+                                    <span class="skill-percentage">70%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" data-progress="70%"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Interaction Design</span>
+                                    <span class="skill-percentage">45%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" data-progress="45%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- My Services Section -->
+        <section id="services" class="services-section">
+            <div class="section-container">
+                <div class="section-header reveal">
+                    <span class="section-tag">WHAT I OFFER</span>
+                    <h2 class="section-title">My Services</h2>
+                </div>
+                
+                <div class="services-grid reveal">
+                    <!-- Service Card 1 -->
+                    <div class="service-card">
+                        <div class="service-img-wrapper">
+                            <img src="assets/images/service-web.png" alt="Web and Mobile Design Illustration" class="service-card-img">
+                            <div class="service-icon-overlay">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                                    <line x1="8" y1="21" x2="16" y2="21"></line>
+                                    <line x1="12" y1="17" x2="12" y2="21"></line>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="service-info">
+                            <h3 class="service-card-title">Web and Mobile Design</h3>
+                            <p class="service-card-desc">Modern, responsive, and user-focused interface design with strong visual clarity.</p>
+                        </div>
+                    </div>
+
+                    <!-- Service Card 2 -->
+                    <div class="service-card">
+                        <div class="service-img-wrapper">
+                            <img src="assets/images/service-dev.png" alt="Web Development Illustration" class="service-card-img">
+                            <div class="service-icon-overlay">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <polyline points="16 18 22 12 16 6"></polyline>
+                                    <polyline points="8 6 2 12 8 18"></polyline>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="service-info">
+                            <h3 class="service-card-title">Web Development</h3>
+                            <p class="service-card-desc">Clean, scalable, high-performance websites built using modern technologies.</p>
+                        </div>
+                    </div>
+
+                    <!-- Service Card 3 -->
+                    <div class="service-card">
+                        <div class="service-img-wrapper">
+                            <img src="assets/images/service-ecom.png" alt="E-commerce Illustration" class="service-card-img">
+                            <div class="service-icon-overlay">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <circle cx="9" cy="21" r="1"></circle>
+                                    <circle cx="20" cy="21" r="1"></circle>
+                                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="service-info">
+                            <h3 class="service-card-title">E-commerce</h3>
+                            <p class="service-card-desc">Conversion-optimized online stores with seamless user experience and product flow.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- My Works Section -->
+        <section id="works" class="works-section">
+            <div class="section-container">
+                <div class="section-header reveal">
+                    <span class="section-tag">PORTFOLIO</span>
+                    <h2 class="section-title">My Works</h2>
+                </div>
+                
+                <div class="works-grid reveal">
+                    <!-- Project 1 -->
+                    <div class="project-tile">
+                        <img src="assets/images/project-1.png" alt="Voyager Luxury Travel Mobile App" class="project-img">
+                        <div class="project-overlay">
+                            <div class="project-details">
+                                <span class="project-category">Mobile App</span>
+                                <h3 class="project-tile-title">Voyager Luxury Travel</h3>
+                            </div>
+                            <div class="project-arrow">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                                    <polyline points="7 7 17 7 17 17"></polyline>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-tile">
+                        <img src="assets/images/project-2.png" alt="Apex Business Analytics Platform" class="project-img">
+                        <div class="project-overlay">
+                            <div class="project-details">
+                                <span class="project-category">Web Platform</span>
+                                <h3 class="project-tile-title">Apex Business Analytics</h3>
+                            </div>
+                            <div class="project-arrow">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                                    <polyline points="7 7 17 7 17 17"></polyline>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-tile">
+                        <img src="assets/images/project-3.png" alt="Aura Luxury Brand Design" class="project-img">
+                        <div class="project-overlay">
+                            <div class="project-details">
+                                <span class="project-category">UI/UX & Branding</span>
+                                <h3 class="project-tile-title">Aura Perfumery</h3>
+                            </div>
+                            <div class="project-arrow">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                                    <polyline points="7 7 17 7 17 17"></polyline>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-tile">
+                        <img src="assets/images/project-4.png" alt="Kinetic Typography Landing Page" class="project-img">
+                        <div class="project-overlay">
+                            <div class="project-details">
+                                <span class="project-category">Interaction Design</span>
+                                <h3 class="project-tile-title">Kinetic Typography</h3>
+                            </div>
+                            <div class="project-arrow">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                                    <polyline points="7 7 17 7 17 17"></polyline>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Section -->
+        <section id="blog" class="blog-section">
+            <div class="section-container">
+                <div class="section-header reveal">
+                    <span class="section-tag">THOUGHTS</span>
+                    <h2 class="section-title">Blog</h2>
+                </div>
+                
+                <div class="blog-grid reveal">
+                    <!-- Blog Post 1 -->
+                    <article class="blog-card">
+                        <div class="blog-img-wrapper">
+                            <img src="assets/images/blog-1.png" alt="The Philosophy of Simplicity in Web Design" class="blog-img">
+                        </div>
+                        <div class="blog-content">
+                            <span class="blog-date">July 10, 2026</span>
+                            <h3 class="blog-card-title">The Philosophy of Simplicity in Web Design</h3>
+                            <p class="blog-excerpt">How reducing interface elements helps luxury users form deeper, emotional connections with digital products.</p>
+                            <a href="#" class="blog-readmore" id="blog-link-1">
+                                <span>Read More</span>
+                                <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Blog Post 2 -->
+                    <article class="blog-card">
+                        <div class="blog-img-wrapper">
+                            <img src="assets/images/blog-2.png" alt="Designing for the Spatial Web" class="blog-img">
+                        </div>
+                        <div class="blog-content">
+                            <span class="blog-date">June 24, 2026</span>
+                            <h3 class="blog-card-title">Designing for the Spatial Web</h3>
+                            <p class="blog-excerpt">Exploring three-dimensional typography and neural interfaces that are redefining interactive designs.</p>
+                            <a href="#" class="blog-readmore" id="blog-link-2">
+                                <span>Read More</span>
+                                <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Blog Post 3 -->
+                    <article class="blog-card">
+                        <div class="blog-img-wrapper">
+                            <img src="assets/images/blog-3.png" alt="Typography as Brand Identity" class="blog-img">
+                        </div>
+                        <div class="blog-content">
+                            <span class="blog-date">May 15, 2026</span>
+                            <h3 class="blog-card-title">Typography as Brand Identity</h3>
+                            <p class="blog-excerpt">A case study on selecting standard and custom serif typefaces that carry high-end brand legacy.</p>
+                            <a href="#" class="blog-readmore" id="blog-link-3">
+                                <span>Read More</span>
+                                <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="section-container">
+                <div class="section-header reveal">
+                    <span class="section-tag">GET IN TOUCH</span>
+                    <h2 class="section-title">Let's Connect</h2>
+                </div>
+                
+                <div class="contact-grid">
+                    <div class="contact-info reveal">
+                        <h3 class="contact-info-title">Have a project in mind?</h3>
+                        <p class="contact-info-desc">Whether you are building a new brand identity, looking to redesign a premium digital experience, or just want to discuss modern aesthetics, feel free to drop a message.</p>
+                        
+                        <div class="contact-methods">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="contact-detail">
+                                    <span class="contact-label">Email Me</span>
+                                    <a href="mailto:hello@rohitkumar.design" class="contact-value">hello@rohitkumar.design</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                        <circle cx="12" cy="10" r="3"></circle>
+                                    </svg>
+                                </div>
+                                <div class="contact-detail">
+                                    <span class="contact-label">Location</span>
+                                    <span class="contact-value">Manhattan, New York</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-wrapper reveal">
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" class="form-input" placeholder=" " required>
+                                <label for="name" class="form-label">Enter Name</label>
+                            </div>
+                            
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" class="form-input" placeholder=" " required>
+                                <label for="email" class="form-label">Email Address</label>
+                            </div>
+                            
+                            <div class="form-group">
+                                <input type="text" id="subject" name="subject" class="form-input" placeholder=" " required>
+                                <label for="subject" class="form-label">Subject</label>
+                            </div>
+                            
+                            <div class="form-group">
+                                <textarea id="message" name="message" class="form-input form-textarea" placeholder=" " required></textarea>
+                                <label for="message" class="form-label">Message</label>
+                            </div>
+                            
+                            <button type="submit" id="btn-submit" class="btn btn-submit">
+                                <span>Send Message</span>
+                                <svg class="send-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                                </svg>
+                            </button>
+                        </form>
+                        <div id="form-feedback" class="form-feedback"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <a href="#home" class="footer-logo">RK<span class="dot">.</span></a>
+                <ul class="footer-socials">
+                    <li><a href="#" aria-label="LinkedIn">LN</a></li>
+                    <li><a href="#" aria-label="Dribbble">DB</a></li>
+                    <li><a href="#" aria-label="Behance">BE</a></li>
+                    <li><a href="#" aria-label="Instagram">IG</a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Rohit Kumar. All Rights Reserved. Built with precision.</p>
+                <div class="footer-backtotop">
+                    <a href="#home" id="btn-back-to-top">Back to top</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Main JS -->
+    <script src="js/app.js"></script>
+</body>
+</html>
